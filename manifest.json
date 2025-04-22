@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Immersive Full Screen Experience",
+    "version": "0.3",
+    "description": "Adds a floating button for immersive full screen without black bars",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "action": {
+        "default_title": "Immersive Full Screen"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.user.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}

@@ -60,7 +60,7 @@ A userscript that adds a floating button to any website, enabling a true immersi
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
 
 ---
 

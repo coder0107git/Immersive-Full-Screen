@@ -36,7 +36,7 @@ A userscript that adds a floating button to any website, enabling a true immersi
 1. Clone or download this repository.
 2. Open Chrome (or Edge) and go to `chrome://extensions` (or `edge://extensions`).
 3. Enable **Developer mode** (top‑right).
-4. Click **Load unpacked** and select the `d:\B.Tech\Immersive Full Screen` folder.
+4. Click **Load unpacked** and select the `<Folder Path>\Immersive Full Screen` folder.
 5. The extension will inject the floating 🖥️ button on all pages.
 6. Refresh any page to see the button and enter immersive full screen.
 

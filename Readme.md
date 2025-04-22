@@ -58,6 +58,14 @@ A userscript that adds a floating button to any website, enabling a true immersi
 
 ---
 
+## Screenshots
+
+| Button Fullscreen | After Fullscreen |
+|:--------------:|:-------------------:|
+| ![Before Full Screen](assets/BeforeFullscreen.jpg) | ![After Fullscreen](assets/AfterFullscreen.jpg) |
+
+---
+
 ## License
 
 [MIT License](LICENSE)

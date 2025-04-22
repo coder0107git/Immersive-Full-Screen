@@ -1,6 +1,6 @@
 # Contributing to Immersive Full Screen Experience
 
-Thank you for considering a contribution to this project! By participating, you agree to abide by our [Code of Conduct](#code-of-conduct).
+Thank you for considering a contribution to this project! By participating, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md).).
 
 ## Code of Conduct
 Please keep discussions respectful and inclusive. Report unacceptable behavior to the maintainers.

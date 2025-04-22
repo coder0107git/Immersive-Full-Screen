@@ -28,7 +28,7 @@ A userscript that adds a floating button to any website, enabling a true immersi
 
 1. Install [Cromite](https://github.com/uazo/cromite) (userscript support is built-in).
 2. Open the browser menu → "Userscripts" → "Add".
-3. Paste the contents of [`script.user.js`](./script.user.js).
+3. Paste the contents of [`script.user.js`](./Main/script.user.js).
 4. Save and refresh any page.
 
 ### For Chrome Extension on Kiwi Browser

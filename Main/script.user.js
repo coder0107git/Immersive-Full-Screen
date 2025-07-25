@@ -2,10 +2,10 @@
 // @name         Immersive Full Screen Experience
 // @version      0.3
 // @description  Adds a floating button for immersive full screen without black bars
-// @homepageURL    https://github.com/0xArchit/Immersive-Full-Screen
+// @homepageURL    https://github.com/coder0107git/Immersive-Full-Screen
 // @author       0xArchit
 // @match        *://*/*
-// @grant        none
+// @grant        GM_registerMenuCommand
 // ==/UserScript==
 
 (function() {
@@ -24,7 +24,18 @@
     button.style.borderRadius = '5px';
     button.style.cursor = 'pointer';
     button.style.fontSize = '16px';
+    button.style.display = 'none';
     document.body.appendChild(button);
+    GM_registerMenuCommand(
+        "Add Fullscreen Button",
+        () => {
+            button.style.display = 'block';
+        },
+        {
+            id: "coder0107git:fullscreen-page",
+            autoClose: true,
+        }
+    );
 
     const applyImmersiveStyles = () => {
         document.body.style.height = '100dvh';
